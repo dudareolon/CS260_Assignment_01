@@ -23,11 +23,19 @@ that will mean that the new marble needs to be put on slot 6 of the array, so th
 function does is to increment the size by one. Then it takes the slot on the array bag that the number
 'size' is now pointing to and stores the string color in that spot (bag[size]=color).
 
-  3. To remove a marble from the bag: This function will take the exact same parameters as the add
-funciton. 
-
+  2. To remove a marble from the bag: This function will take the exact same parameters as the add funciton. The first step of this function will be to check if there are marbles in the bag to be removed, in other words, if the size is not 0. If the size is 0 it will display an error
+message, if the size is not 0 it will keep going with the subtraction of the marble.
+The function then will run a while loop starting at the index i equal 0 until the index i
+equals the number of marbles in the bag (size). In this while loop, for each slot in the array
+it will check if the string that is stored in that slot is equal to the string inputed as a
+parameter to be removed. For examble, if the programmer inputed to remove the marble 'Blue',
+it will search through all slots of the array to find if any of them have the same string
+'Blue' stored in them.
+If it does not find it, then the function will end and nothing will be changed. If it finds it
+(if (bag[i]==color){}) then it will run a for loop to shift one to slot to the left all marbles that are to the right of the marble that needs to be removed. This way the marble that must be removed is overwritten by the marble on its right. Once the marble is removed, the program will
+break out of the function so that only one marble of that color is removed. 
     
-  4. To display the content that is inside of the bag: This function will not need the color parameter,
+  3. To display the content that is inside of the bag: This function will not need the color parameter,
 only the bag array and the amount of marbles that are in the bag. 
 
 Testing:
