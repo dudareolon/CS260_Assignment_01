@@ -16,9 +16,19 @@ program only differ in color. However, if I had made my program more sophisticat
 all marbles under one structure would have made it easier to store all the information about them. 
 
 Now for the methods my program will include 3 of them:
-  1. To add a marble to the bag:
-  2. To remove a marble from the bag:
-  3. To display the content that is inside of the bag:
+  1. To add a marble to the bag: The parameters for this function will need to be the array of
+the bag, the integer number that is the current size of the bag, in other words, how many marbles
+are already in the bag, and the color that will be inputed as a string. If the bag has 5 marbles,
+that will mean that the new marble needs to be put on slot 6 of the array, so the first thing this
+function does is to increment the size by one. Then it takes the slot on the array bag that the number
+'size' is now pointing to and stores the string color in that spot (bag[size]=color).
+
+  3. To remove a marble from the bag: This function will take the exact same parameters as the add
+funciton. 
+
+    
+  4. To display the content that is inside of the bag: This function will not need the color parameter,
+only the bag array and the amount of marbles that are in the bag. 
 
 Testing:
 7 testings were run on the program, see the results below:
