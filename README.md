@@ -25,4 +25,18 @@ Testing:
 ![image](https://github.com/dudareolon/CS260_Assignment_01/assets/102680672/d465f9f5-f8c2-4bb3-816d-8630c5ac157f)
 
 Work meeting requirements:
+There were 4 requirements:
+1. some way of representing marbles:
+![image](https://github.com/dudareolon/CS260_Assignment_01/assets/102680672/aec0b494-5fcd-450c-b72a-219613947149)
+
+2. a way to add new marbles into the bag:
+![image](https://github.com/dudareolon/CS260_Assignment_01/assets/102680672/e99d7f8e-c6fb-4bf7-8ce6-ffdf27892795)
+
+3. a way to remove a marble out of the bag:
+![image](https://github.com/dudareolon/CS260_Assignment_01/assets/102680672/94acaf5f-e87f-4ba9-9408-2dac270ce74a)
+
+4. a few ways that we could use to show that our implementation should be working correctly (tests):
+![image](https://github.com/dudareolon/CS260_Assignment_01/assets/102680672/8054edc1-dcb3-421b-847b-82a67c2a3437)
+![image](https://github.com/dudareolon/CS260_Assignment_01/assets/102680672/6baaa893-d30a-49c0-9f7b-a55def704af1)
+
 
