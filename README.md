@@ -35,8 +35,11 @@ If it does not find it, then the function will end and nothing will be changed. 
 (if (bag[i]==color){}) then it will run a for loop to shift one to slot to the left all marbles that are to the right of the marble that needs to be removed. This way the marble that must be removed is overwritten by the marble on its right. Once the marble is removed, the program will
 break out of the function so that only one marble of that color is removed. 
     
-  3. To display the content that is inside of the bag: This function will not need the color parameter,
-only the bag array and the amount of marbles that are in the bag. 
+  3. To display the content that is inside of the bag: This function will not need the color parameter, only the bag array and the amount of marbles that are in the bag. The first step of
+this function is to check if there are any marbles in the bag to be displayed. In case the
+size of the bag is 0 it will desplay an error message. If the size of the bag is not 0, then
+it will run through a while loop that increases the index i from 0 to the size of the array
+bag, printing out the string that is stored in each slot of the array.  
 
 Testing:
 7 testings were run on the program, see the results below:
