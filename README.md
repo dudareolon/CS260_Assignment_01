@@ -22,6 +22,7 @@ Now for the methods my program will include 3 of them:
 
 Testing:
 7 testings were run on the program, see the results below:
+![image](https://github.com/dudareolon/CS260_Assignment_01/assets/102680672/d465f9f5-f8c2-4bb3-816d-8630c5ac157f)
 
 Work meeting requirements:
 
