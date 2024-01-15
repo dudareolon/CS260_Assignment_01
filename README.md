@@ -21,6 +21,7 @@ Now for the methods my program will include 3 of them:
   3. To display the content that is inside of the bag:
 
 Testing:
+7 testings were run on the program, see the results below:
 
 Work meeting requirements:
 
